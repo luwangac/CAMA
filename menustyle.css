@@ -1,0 +1,21 @@
+/*this section hides the dropdown list.*/
+#nav ul li:hover ul {
+    display: block;
+}
+/*this formats the dropdown options*/
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+/*This section displays the subheadings as blocks. If commnented out, they become inline*/
+#nav ul ul li {
+    display: block;
+}
+/*color changes when text is hovered upon*/
+#nav ul ul li a:hover {
+    color: #699;
+}
