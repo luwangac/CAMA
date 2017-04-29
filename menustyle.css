@@ -19,4 +19,5 @@
 /*color changes when text is hovered upon*/
 #nav ul ul li a:hover {
     color: 	#FFA509;
+      text-decoration: none;
 }
