@@ -9,7 +9,7 @@
     background-color: #222;
     border: 5px solid #222;
     border-top: 0;
-    margin-left: 1px;
+    margin-left: -10px;
 }
 /*This section displays the subheadings as blocks. If commnented out, they become inline*/
 #nav ul ul li {
