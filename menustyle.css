@@ -5,7 +5,7 @@
 /*this formats the dropdown options*/
 #nav ul ul {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #222;
     border: 5px solid #222;
     border-top: 0;
