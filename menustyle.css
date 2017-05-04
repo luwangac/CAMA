@@ -5,11 +5,11 @@
 /*this formats the dropdown options*/
 #nav ul ul {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #222;
     border: 5px solid #222;
     border-top: 0;
-    margin-left: 0 px;
+    margin-left: 0;
 }
 /*This section displays the subheadings as blocks. If commnented out, they become inline*/
 #nav ul ul li {
