@@ -13,7 +13,7 @@
 }
 /*This section displays the subheadings as blocks. If commnented out, they become inline*/
 #nav ul ul li {
-    display: block;
+    display:block;
     text-decoration: none;
 }
 /*color changes when text is hovered upon*/
