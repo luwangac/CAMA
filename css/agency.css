@@ -171,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: black;
 }
 
 .navbar-default .navbar-brand {
@@ -731,6 +731,15 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    position:absolute;
+
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
 }
 
 footer span.copyright {
@@ -871,4 +880,69 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.drop-down-menu{
+text-align: center;
+padding-left: 0px;
+font-size: 12px;
+}
+
+.mainNav{
+    background-color: rgb(255,255,255);
+    text-align: center;
+    left: 20px;
+    width: 100%;
+    padding: 12px 0;
+    line-height: 36px;
+}
+.mainNav-item{
+    border: 2px solid;
+    margin: 50px 10px;
+    line-height: 48px;
+    padding: 6px 18px;
+    color: black;
+
+}
+.mainNav-item:hover{
+    color: white;
+    background-color: rgb(60,60,60);    
 }
